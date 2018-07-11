@@ -8,11 +8,11 @@ def eur_to_usd(amount)
 end
 
 def usd_to_jpy(amount)
-  new_currency= amount *110.90
+  new_currency= amount *111.20
 end
 
 def jpy_to_usd(amount)
-  new_currency = amount *
+  new_currency = amount *0.00899
 end
 
 def usd_to_gbp(amount)
