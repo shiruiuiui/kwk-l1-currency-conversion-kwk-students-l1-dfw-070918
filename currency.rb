@@ -32,5 +32,7 @@ def aud_to_usd(amount)
 end
 
 puts"How much money do you want to convert?"
-amount = gets.chomp().to_1
+amount = gets.chomp().to_i
+
+
 
