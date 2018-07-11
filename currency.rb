@@ -24,11 +24,11 @@ def gbp_to_usd(amount)
 end
 
 def usd_to_aud(amount)
-  new_currency = amount *
+  new_currency = amount *1.35
 end
 
 def aud_to_usd(amount)
-  new_currency = amount *
+  new_currency = amount *0.74
 end
 
 puts"How much money do you want to convert?"
@@ -48,17 +48,17 @@ choice = gets.chomp().to_i
  
 case choice
 when 1
-  #code here
+  usd_to_eur(amount)
 when 2
-  #code here
+  usd_to_jpy(amount)
 when 3
-  #code here
+  usd_to_gbp(amount)
 when 4
-  #code here
+  usd_to_aud(amount)
 when 5
-  #code here
+  eur_to_usd(amount)
 when 6
-  #code here
+  jpy_to_usd(amount)
 when 7
   #code here
 when 8
